@@ -11,6 +11,7 @@ module.exports = {
     path: resolve("../dist"),
     filename: "index.js",
     library: package.name,
+    globalObject: "this",
     libraryTarget: "umd",
     umdNamedDefine: true
   },
