@@ -1,7 +1,8 @@
 {
-  "name": "console",
+  "name": "@secrets/console",
   "version": "1.0.0",
   "description": "",
+  "main": "dist/index.js",
   "scripts": {
     "build": "webpack --config scripts/webpack.config.js --mode development"
   },

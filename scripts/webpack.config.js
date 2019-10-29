@@ -8,7 +8,6 @@ let resolve = _path_ => {
 module.exports = {
   entry: "./src/main.js",
   output: {
-    filename: "bundle.[hash].js",
     path: resolve("../dist"),
     filename: "index.js",
     library: package.name,
